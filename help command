@@ -1,0 +1,96 @@
+@help.command()
+async def kick(ctx):
+  em = discord.Embed(title = "Kick", description = "Kicks a member from the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/kick <member> [reason]")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def ban(ctx):
+  em = discord.Embed(title = "Ban", description = "Bans a member from the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/ban <member> [reason]")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def unban(ctx):
+  em = discord.Embed(title = "Unban", description = "Unbans a member from the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/unban <member>")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def clear(ctx):
+  em = discord.Embed(title = "Clear", description = "Clears automatically 2 messages.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/clear [number of messages]")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def mute(ctx):
+  em = discord.Embed(title = "Mute", description = "Mutes a member of the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/mute <member>")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def unmute(ctx):
+  em = discord.Embed(title = "Unmute", description = "Unmutes a member of the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/unmute <member>")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def whois(ctx):
+  em = discord.Embed(title = "Who is", description = "Tells information about a member of the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/whois <member>")
+  await ctx.send(embed = em)
+
+
+
+
+@help.command()
+async def hello(ctx):
+  em = discord.Embed(title = "Hello", description = "Says hi.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/hello")
+  await ctx.send(embed = em)
+
+
+
+
+
+@help.command()
+async def door(ctx):
+  em = discord.Embed(title = "Door slam", description = "Slams a door.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/door")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def warn(ctx):
+  em = discord.Embed(title = "Warn (not working)", description = "Warns a member of the guild.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/warn <member> [reason]")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def ping(ctx):
+  em = discord.Embed(title = "Ping", description = "Sends a ping to the bot and shows the response time.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/ping")
+  await ctx.send(embed = em)
+
+
+
+@help.command()
+async def rocket(ctx):
+  em = discord.Embed(title = "Rocket", description = "Launches a rocket into the space.",color = ctx.author.color)
+  em.add_field(name = "**Syntax**", value = "/rocket")
+  await ctx.send(embed = em)
